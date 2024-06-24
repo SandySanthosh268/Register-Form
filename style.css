@@ -1,0 +1,68 @@
+body{
+   background-image: url('image/black.jpeg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   min-height: 500px;
+   background-position: center;
+   background-size: cover;
+margin: 0;
+font-family: 'poppins', sans-serif;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+#form button{
+    background-color: rgb(99, 96, 96);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px rgb(0, 0, 0);
+
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: green;
+}
+
+.input-group.error input{
+    border-color: red;
+}
