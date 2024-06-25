@@ -15,6 +15,7 @@ font-family: 'poppins', sans-serif;
     background-color: whitesmoke;
     border-radius: 5px;
     padding: 30px;
+   
 }
 h1{
     text-align: center;
@@ -22,7 +23,7 @@ h1{
 }
 
 #form button{
-    background-color: rgb(99, 96, 96);
+    background-color:black;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -37,6 +38,7 @@ h1{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    color: black;
 
 }
 
@@ -50,10 +52,11 @@ h1{
 }
 
 .input-group input:focus{
-    outline: 0;
+    outline: 2px solid black;
+    box-shadow: 0 0 5px 2px;
 }
 
-.error{
+.input-group.error{
     color: red;
     font-size: 16px;
     margin-top: 5px;
